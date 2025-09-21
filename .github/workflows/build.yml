@@ -17,6 +17,6 @@ jobs:
           node-version: 22
       - run: npm ci
       - run: npm install -g @angular/cli
-      - run: ng build --prod
+      - run: ng build -c production 
 
   
